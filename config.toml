@@ -40,7 +40,7 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Christin Zasada"
-  role = "Researcher with a thing for data viz, taste and knots"
+  role = "Researcher with a predelication for data vizualisation, cuisine and knots"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -50,10 +50,10 @@ defaultContentLanguageInSubdir = false
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "zasada.christin@gmail.com"
   address = "Building 64 Room 121, MDC, Berlin, 13125, Germany"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
-  telegram = ""
+  office_hours = "Just email me"
+  phone = "+49 30 9406 3166"
+  skype = "christin.zasada"
+  #telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
   keybase = ""
@@ -81,11 +81,11 @@ defaultContentLanguageInSubdir = false
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  map = 0
-  map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
-  zoom = 15
+  map = 1
+  map_api_key = "AIzaSyB2VrLltKIAgQmV-7--VKXIWIYkmVCryEI"
+  latitude = "52.625501"
+  longitude = "13.502280"
+  zoom = 25
 
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -221,6 +221,16 @@ defaultContentLanguageInSubdir = false
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/ChrisZasa"
+  
+  [[params.social]]
+    icon = "orcid"
+    icon_pack = "ai"
+    link = "//orcid.org/0000-0003-1547-8317"
+  
+  [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "https://www.linkedin.com/in/christin-zasada/"
 
 
 # Navigation Links
